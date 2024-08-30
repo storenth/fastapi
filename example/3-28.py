@@ -1,3 +1,3 @@
-@app.get("/happy")
-def happy(status_code=200):
+@app.get("/happy", status_code=200)
+def happy():
     return ":)"
